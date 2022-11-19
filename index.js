@@ -6,7 +6,7 @@
  * @param {integer} start - start time, epoch time. if not set, it sets to 0, so it just gets the time of time param.
  * @returns 
  */
-const __convertTime = function(time, start = 0) {
+ const __convertTime = function(time, start = 0) {
 	const current = time;
 	const now = current - start;
 	return new Date(now).toLocaleTimeString("it-US");
