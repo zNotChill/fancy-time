@@ -1,0 +1,11 @@
+{
+  "name": "fancy-time",
+  "version": "1.0.2",
+  "description": "A simple package for converting Unix to Readable",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zNotChill",
+  "license": "ISC"
+}
