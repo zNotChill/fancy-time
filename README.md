@@ -8,7 +8,7 @@ A simple package for converting Unix to Readable.
 [![GitHub watchers](https://img.shields.io/github/watchers/znotchill/fancy-time?label=WATCHING)](https://github.com/znotchill/mdjson/releases/latest)
 [![GitHub stars](https://img.shields.io/github/stars/znotchill/fancy-time?label=STARS)](https://github.com/znotchill/mdjson/releases/latest)
 [![](https://img.shields.io/static/v1?label=GitHub&message=fancy-time)](https://github.com/zNotChill/fancy-time)
-[![Downloads](https://badgen.net/npm/dt/fancy-time)](https://www.npmjs.com/package/fabcy-time)
+[![Downloads](https://badgen.net/npm/dt/fancy-time)](https://www.npmjs.com/package/fancy-time)
 
 # Usage
 
