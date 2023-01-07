@@ -1,24 +1,15 @@
-// (c) 2022 zNotChill - See LICENSE.md
+// (c) 2022 zNotChill - See LICENSE
 
 /**
  * Returns the time between 2 points, in 24 hour time.
  * @param {integer} time - converts the time between time and start params
- * @param {integer} start - start time, epoch time. if not set, it sets to 0, so it just gets the time of time param.
+ * @param {integer} start - start time, epoch time. *optional param*
  * @returns 
  */
- const __convertTime = function(time, start = 0) {
+const time = function(time, start = 0) {
 	const current = time;
 	const now = current - start;
 	return new Date(now).toLocaleTimeString("it-US");
-}
-
-/**
- * Returns the converted time of now.
- * @param {integer} time - any epoch timestamp - defaults to now 
- * @returns 
- */
-const __time = function(time = Date.now()) {
-	return __convertTime(time)
 }
 
 /**
@@ -27,8 +18,8 @@ const __time = function(time = Date.now()) {
  * @param {integer} now - any epoch timestamp, defaults to now
  * @returns 
  */
-const __duration = function(start, now = Date.now()) {
-	return __convertTime(now, start)
+const duration = function(start, now = Date.now()) {
+	return time(now, start);
 }
 
 /**
@@ -36,12 +27,11 @@ const __duration = function(start, now = Date.now()) {
  * @param {integer} str - any string
  * @returns 
  */
-const __timeStr = function(str) {
-	return `[${__time()}] ${str}`
+const timeStr = function(str) {
+	return `[${time(Date.now())}] ${str}`;
 }
 module.exports = {
-	__convertTime,
-	__time,
-	__duration,
-	__timeStr
+	time,
+	duration,
+	timeStr
 }
