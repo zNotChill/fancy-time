@@ -1,11 +1,17 @@
 {
   "name": "fancy-time",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple package for converting Unix to Readable",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "zNotChill",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^5.75.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.0.1"
+  }
 }

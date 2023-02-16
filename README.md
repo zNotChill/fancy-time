@@ -10,17 +10,12 @@ A simple package for converting Unix to Readable.
 [![](https://img.shields.io/static/v1?label=GitHub&message=fancy-time)](https://github.com/zNotChill/fancy-time)
 [![Downloads](https://badgen.net/npm/dt/fancy-time)](https://www.npmjs.com/package/fancy-time)
 
-> **Note**
-> Version 1.4 will be ESM. <V1.3 will remain CJS.
-
 # Usage
 
 ### CDN Usage
 
-This URL will remain `cdn.js` until I figure out how get node.js + web compatibility
-
 ```html
-<script src="https://cdn.jsdelivr.net/npm/fancy-time@1.0.3/cdn.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fancy-time@1.0.4/dist/bundle.js"></script>
 ```
 
 ### Node.js Usage
@@ -34,12 +29,12 @@ const { time, duration, timeStr } = require("fancy-time");
 ```js
 const time = 1668714660167;
 
-// __time converts to human readable from epoch
+// time converts to human readable from epoch
 console.log(time(time)); // 19:51:00
 
-// __duration gets the human readable time between 2 epoch values
+// duration gets the human readable time between 2 epoch values
 console.log(duration(date)); // 6:45:26
 
-// __timeStr concatenates a normal string with a current readable time
+// timeStr concatenates a normal string with a current readable time
 console.log(timeStr("Lorem Ipsum Dolor Sit Amet")); // example: [19:51:00] Lorem Ipsum Dolor Sit Amet
 ```

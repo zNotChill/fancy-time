@@ -1,0 +1,1 @@
+(()=>{var t={138:t=>{const r=function(t,r=0){return new Date(t-r).toLocaleTimeString("it-US")};t.exports={time:r,duration:function(t,n=Date.now()){return r(n,t)},timeStr:function(t){return`[${r(Date.now())}] ${t}`}}}},r={};!function n(e){var o=r[e];if(void 0!==o)return o.exports;var i=r[e]={exports:{}};return t[e](i,i.exports,n),i.exports}(138)})();
