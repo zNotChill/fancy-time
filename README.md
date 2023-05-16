@@ -29,10 +29,10 @@ const { time, duration, timeStr } = require("fancy-time");
 ```js
 const time = 1668714660167;
 
-// time converts to human readable from epoch
+// time converts to human readable from unix
 console.log(time(time)); // 19:51:00
 
-// duration gets the human readable time between 2 epoch values
+// duration gets the human readable time between 2 unix values
 console.log(duration(date)); // 6:45:26
 
 // timeStr concatenates a normal string with a current readable time

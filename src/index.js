@@ -1,9 +1,9 @@
-// (c) 2022 zNotChill - See LICENSE
+// (c) 2023 zNotChill - See LICENSE
 
 /**
  * Returns the time between 2 points, in 24 hour time.
  * @param {integer} time - converts the time between time and start params
- * @param {integer} start - start time, epoch time. *optional param*
+ * @param {integer} start - start time, unix time. *optional param*
  * @returns 
  */
 const time = function(time, start = 0) {
@@ -13,9 +13,9 @@ const time = function(time, start = 0) {
 }
 
 /**
- * Returns the duration between two epoch timestamps.
- * @param {integer} start - the start epoch timestamp
- * @param {integer} now - any epoch timestamp, defaults to now
+ * Returns the duration between two unix timestamps.
+ * @param {integer} start - the start unix timestamp
+ * @param {integer} now - any unix timestamp, defaults to now
  * @returns 
  */
 const duration = function(start, now = Date.now()) {
