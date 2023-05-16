@@ -2,7 +2,7 @@
 
 A simple package for converting Unix to Readable.
 
-[![](https://img.shields.io/discord/993979667264577669?label=Discord)](https://discord.gg/GXWcGN8ch3)
+[![](https://img.shields.io/discord/993979667264577669?label=Discord)](https://discord.gg/ZvvpgVZNUQ)
 [![CodeFactor](https://www.codefactor.io/repository/github/znotchill/fancy-time/badge)](https://www.codefactor.io/repository/github/znotchill/fancy-time)
 [![GitHub license](https://img.shields.io/github/license/znotchill/fancy-time.svg?label=License&color=31677d)](https://github.com/znotchill/mdjson/releases/latest)
 [![GitHub watchers](https://img.shields.io/github/watchers/znotchill/fancy-time?label=Watching)](https://github.com/znotchill/fancy-time/releases/latest)
